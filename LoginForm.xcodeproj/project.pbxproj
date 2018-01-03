@@ -13,6 +13,9 @@
 		27E63E281FFD1D35007E3B2E /* LoginForm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E63E261FFD1D35007E3B2E /* LoginForm.xcdatamodeld */; };
 		27E63E2A1FFD1D35007E3B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E291FFD1D35007E3B2E /* Assets.xcassets */; };
 		27E63E2D1FFD1D35007E3B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E2B1FFD1D35007E3B2E /* LaunchScreen.storyboard */; };
+		27E63E361FFD1DB4007E3B2E /* LANDMARK72_night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E351FFD1DB4007E3B2E /* LANDMARK72_night.jpg */; };
+		27E63E381FFD1E22007E3B2E /* 10561691_966365100073125_7665547204355988977_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E371FFD1E22007E3B2E /* 10561691_966365100073125_7665547204355988977_n.jpg */; };
+		27E63E3B1FFD22E2007E3B2E /* UIViewController+ShowToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E63E3A1FFD22E2007E3B2E /* UIViewController+ShowToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		27E63E291FFD1D35007E3B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E63E2C1FFD1D35007E3B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E63E2E1FFD1D35007E3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E63E351FFD1DB4007E3B2E /* LANDMARK72_night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LANDMARK72_night.jpg; sourceTree = "<group>"; };
+		27E63E371FFD1E22007E3B2E /* 10561691_966365100073125_7665547204355988977_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10561691_966365100073125_7665547204355988977_n.jpg; sourceTree = "<group>"; };
+		27E63E3A1FFD22E2007E3B2E /* UIViewController+ShowToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowToast.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		27E63E1E1FFD1D35007E3B2E /* LoginForm */ = {
 			isa = PBXGroup;
 			children = (
+				27E63E391FFD22A3007E3B2E /* Extensions */,
+				27E63E341FFD1D78007E3B2E /* Resources */,
 				27E63E1F1FFD1D35007E3B2E /* AppDelegate.swift */,
 				27E63E211FFD1D35007E3B2E /* ViewController.swift */,
 				27E63E231FFD1D35007E3B2E /* Main.storyboard */,
@@ -65,6 +73,23 @@
 				27E63E261FFD1D35007E3B2E /* LoginForm.xcdatamodeld */,
 			);
 			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		27E63E341FFD1D78007E3B2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27E63E371FFD1E22007E3B2E /* 10561691_966365100073125_7665547204355988977_n.jpg */,
+				27E63E351FFD1DB4007E3B2E /* LANDMARK72_night.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27E63E391FFD22A3007E3B2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27E63E3A1FFD22E2007E3B2E /* UIViewController+ShowToast.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E63E381FFD1E22007E3B2E /* 10561691_966365100073125_7665547204355988977_n.jpg in Resources */,
 				27E63E2D1FFD1D35007E3B2E /* LaunchScreen.storyboard in Resources */,
 				27E63E2A1FFD1D35007E3B2E /* Assets.xcassets in Resources */,
 				27E63E251FFD1D35007E3B2E /* Main.storyboard in Resources */,
+				27E63E361FFD1DB4007E3B2E /* LANDMARK72_night.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +168,7 @@
 			files = (
 				27E63E221FFD1D35007E3B2E /* ViewController.swift in Sources */,
 				27E63E201FFD1D35007E3B2E /* AppDelegate.swift in Sources */,
+				27E63E3B1FFD22E2007E3B2E /* UIViewController+ShowToast.swift in Sources */,
 				27E63E281FFD1D35007E3B2E /* LoginForm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
